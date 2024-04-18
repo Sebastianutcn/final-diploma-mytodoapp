@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mytodoapp-service
+  labels:
+    app: mytodoapp
+spec:
+  selector:
+    app: mytodoapp
+  type: LoadBalancer
+  ports:
+  - port: 3000        # ClusterIp service port
+    #nodePort: 31364  # NodePort service port
+    targetPort: 3000  # Container port (Pod port)
+    protocol: TCP
+    name: http
