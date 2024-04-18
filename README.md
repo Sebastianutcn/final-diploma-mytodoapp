@@ -12,4 +12,6 @@ Files needed for pipeline:
 
 Minikube files:     
 5. **deployment.yml** is a Kubernetes configuration file used to define a Deployment object     
-6. **service.yml** is a Kubernetes configuration file used to define a Service object
+6. **service.yml** is a Kubernetes configuration file used to define a Load Balancer Service object    
+7. **ingress.yml** is a Kubernetes configuration file used to define an Ingress object    
+8. **nginx.yml** is a Kubernetes configuration file used to define a Deployment and a Service object used for ingress
