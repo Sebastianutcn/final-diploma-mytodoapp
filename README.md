@@ -5,8 +5,8 @@ This repo has different files I used for my final diploma project
 2. **Dockerfile** has code needed to build a Docker Image
 
 Files needed for pipeline:
-4. **buildspec.yml** is used as a configuration file for AWS CodeBuild
-5. **appspec.yml** is used as a configuration file for AWS CodeDeploy and the scripts for hooks are inside **scripts** folder
+3. **buildspec.yml** is used as a configuration file for AWS CodeBuild
+4. **appspec.yml** is used as a configuration file for AWS CodeDeploy and the scripts for hooks are inside **scripts** folder
    - **application_stop.sh** - has scripts for checking and therefore stopping the Node.js service using PM2
    - **after_install.sh** - has scripts used for installing: nvm, node, npm, express and pm2
 
