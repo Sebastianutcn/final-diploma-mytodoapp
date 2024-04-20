@@ -1,5 +1,5 @@
 # Source code and other configuration files
-This files are used for my final diploma project and are also stored in a repository in AWS CodeCommit. Every commit in that repository triggers the release of the pipeline. The Terraform code used to provision the infrastructure for the pipeline is here: https://github.com/Sebastianutcn/pipeline-terraform
+This files are used for my final diploma project and are also stored in a repository in AWS CodeCommit. Every commit in that repository triggers the release of the pipeline. The Terraform code used to provision the infrastructure for the pipeline is here: https://github.com/Sebastianutcn/pipeline-terraform 
 
 # Node.js app
 1. Inside **/src/index.js** there is the Node.js code - it is a To Do app
