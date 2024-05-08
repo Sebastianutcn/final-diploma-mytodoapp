@@ -10,8 +10,8 @@ This files are used for my final diploma project and are also stored in a reposi
 # Files needed for pipeline:    
 3. [`buildspec.yml`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/buildspec.yml) is used as a configuration file for AWS CodeBuild     
 4. [`appspec.yml`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/appspec.yml) is used as a configuration file for AWS CodeDeploy and the scripts for hooks are inside **scripts** folder:
-   - `application_stop.sh` - has scripts for checking and therefore stopping the Node.js service using PM2
-   - `after_install.sh` - has scripts used for installing: nvm, node, npm, express and pm2
+   - [`application_stop.sh`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/scripts/application_stop.sh) - has scripts for checking and therefore stopping the Node.js service using PM2
+   - [`after_install.sh`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/scripts/after_install.sh) - has scripts used for installing: nvm, node, npm, express and pm2
 
 # Minikube files:     
 5. `deployment.yml` is a Kubernetes configuration file used to define a Deployment object     
