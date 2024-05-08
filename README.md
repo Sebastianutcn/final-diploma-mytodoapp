@@ -14,7 +14,7 @@ This files are used for my final diploma project and are also stored in a reposi
    - [`after_install.sh`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/scripts/after_install.sh) - has scripts used for installing: nvm, node, npm, express and pm2
 
 # Minikube files:     
-5. `deployment.yml` is a Kubernetes configuration file used to define a Deployment object     
-6. `service.yml` is a Kubernetes configuration file used to define a Load Balancer Service object    
-7. `ingress.yml` is a Kubernetes configuration file used to define an Ingress object    
-8. `nginx.yml` is a Kubernetes configuration file used to define a Deployment and a Service object used for ingress
+5. [`deployment.yml`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/deployment.yml) is a Kubernetes configuration file used to define a Deployment object     
+6. [`service.yml`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/service.yml) is a Kubernetes configuration file used to define a Load Balancer Service object    
+7. [`ingress.yml`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/ingress.yml) is a Kubernetes configuration file used to define an Ingress object    
+8. [`nginx.yml`](https://github.com/Sebastianutcn/final-diploma-mytodoapp/blob/main/nginx.yml) is a Kubernetes configuration file used to define a Deployment and a Service object used for ingress
